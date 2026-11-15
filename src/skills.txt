@@ -1,0 +1,102 @@
+python
+r
+sql
+java
+c++
+matlab
+javascript
+excel
+power bi
+power query
+tableau
+dax
+vba
+pandas
+numpy
+scikit-learn
+xgboost
+lightgbm
+pytorch
+tensorflow
+keras
+spacy
+nltk
+hugging face
+transformers
+llm
+large language models
+prompt engineering
+rag
+retrieval augmented generation
+machine learning
+deep learning
+natural language processing
+nlp
+computer vision
+reinforcement learning
+time series
+forecasting
+regression
+classification
+clustering
+statistics
+hypothesis testing
+a/b testing
+design of experiments
+optimization
+linear programming
+operations research
+simulation
+monte carlo
+data analysis
+data analytics
+data visualization
+data modelling
+data modeling
+data cleaning
+etl
+data pipelines
+data warehouse
+dashboards
+kpi
+reporting
+business intelligence
+predictive analytics
+model evaluation
+feature engineering
+explainability
+shap
+mlops
+docker
+git
+github
+rest api
+flask
+fastapi
+aws
+azure
+gcp
+databricks
+snowflake
+spark
+airflow
+jira
+agile
+scrum
+project management
+stakeholder management
+requirements gathering
+process improvement
+lean
+six sigma
+root cause analysis
+supply chain
+operations management
+inventory management
+financial analysis
+budgeting
+variance analysis
+risk analysis
+fraud detection
+communication
+presentation

@@ -1,0 +1,15 @@
+{
+ "rows": 962,
+ "unique_resumes": 166,
+ "categories": 25,
+ "leaky_random_split": {
+  "accuracy": 0.99,
+  "macro_f1": 0.989,
+  "share_of_test_resumes_also_in_train": 0.99
+ },
+ "deduplicated_cv": {
+  "accuracy": 0.873,
+  "macro_f1": 0.85,
+  "folds": 3
+ }
+}

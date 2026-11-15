@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Resume ↔ Job Matcher</title>
+<style>body{font:16px/1.5 -apple-system,system-ui,sans-serif;max-width:960px;margin:40px auto;padding:0 20px;color:#1d1d1f}
+textarea{width:100%;height:220px;padding:12px;border:1px solid #d2d2d7;border-radius:12px;font:inherit}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:16px}button{background:#1d1d1f;color:#fff;border:0;border-radius:980px;padding:10px 22px;font:inherit;cursor:pointer;margin-top:12px}
+.score{font-size:48px;font-weight:700}.chip{display:inline-block;padding:3px 10px;border-radius:980px;margin:3px;background:#f5f5f7}.miss{background:#fff1f0}</style></head>
+<body><h1>Resume ↔ Job Matcher</h1>
+<form method="post"><div class="row"><label>Resume<textarea name="resume">{{ form.get('resume','') }}</textarea></label>
+<label>Job description<textarea name="job">{{ form.get('job','') }}</textarea></label></div><button>Match</button></form>
+{% if result %}<h2>Match score</h2><div class="score">{{ result.score }}</div>
+<p>Text similarity {{ result.text_similarity }} · Skill coverage {{ (result.skill_coverage*100)|round|int }}%</p>
+<h3>Matched skills</h3>{% for s in result.matched_skills %}<span class="chip">{{ s }}</span>{% endfor %}
+<h3>Missing skills</h3>{% for s in result.missing_skills %}<span class="chip miss">{{ s }}</span>{% endfor %}{% endif %}
+</body></html>

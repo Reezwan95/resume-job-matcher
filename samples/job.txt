@@ -1,0 +1,2 @@
+We are hiring a Junior Data Scientist. Requirements: Python, SQL, machine learning, scikit-learn, deep learning with PyTorch,
+data visualization in Tableau or Power BI, A/B testing, and strong communication. Experience with AWS or Docker is a plus.

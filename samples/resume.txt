@@ -1,0 +1,2 @@
+Data analyst with experience in Python, SQL and Power BI. Built KPI dashboards and automated reporting with Power Query and Excel.
+Trained machine learning models (XGBoost, scikit-learn) for classification and forecasting; strong statistics and stakeholder management.
